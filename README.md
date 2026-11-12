@@ -26,7 +26,7 @@ Application працює лише з інтерфейсом (принцип ін
 
 ## Збірка і запуск
 
-1. Встановити Dart SDK (входить до складу Flutter).
+1. Встановити Dart SDK версії 3.0 або новішої (входить до складу Flutter).
 2. Клонувати репозиторій:
    ```
    git clone https://github.com/olenaishchuk/newshub_clean.git
