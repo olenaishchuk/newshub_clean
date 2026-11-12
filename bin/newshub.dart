@@ -11,6 +11,7 @@ import 'package:newshub_clean/src/infrastructure/repositories/memory_post_reposi
 import 'package:newshub_clean/src/presentation/cli/console_app.dart';
 
 /// Composition root: єдине місце, де збираються всі шари через DI.
+/// Тут немає бізнес-логіки: лише читання конфігурації та складання об'єктів.
 Future<void> main() async {
   // 1. Читаємо конфігурацію
   final configText = await File('config/settings.json').readAsString();
