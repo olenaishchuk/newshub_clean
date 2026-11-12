@@ -2,6 +2,8 @@ import 'package:newshub_clean/src/domain/entities/news_post.dart';
 import 'package:newshub_clean/src/domain/entities/post_category.dart';
 import 'package:newshub_clean/src/domain/interfaces/post_repository.dart';
 
+/// Повертає новини, відфільтровані за категорією та/або збереженими,
+/// від найновіших до найстаріших.
 class GetPostsUseCase {
   final PostRepository _repository;
 
