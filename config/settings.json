@@ -1,4 +1,4 @@
 {
   "storage": "memory",
-  "dataFile": "storage/posts.json"
+  "dataFile": "storage/articles.json"
 }
